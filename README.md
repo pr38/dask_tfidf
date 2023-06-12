@@ -3,7 +3,7 @@ A Dask native implementation of 'Term Frequency Inverse Document Frequency' for 
 
 Install
 -------
->pip install git+https://github.com/pr38/dask_tfidf
+>pip install dask-tfidf
 
 This project simply includes a DaskTfidfTransformer class, which is more or less a dask equivalent for sklearn' TfidfTransformer.
 It assumes a dask array of counted tokens, like the kind that dask_ml's CountVectorizer class creates.
